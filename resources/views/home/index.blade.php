@@ -1,11 +1,4 @@
-@extends('layouts.app')
 
-@section('title', '- Home')
-
-@push('custom_css')
-@endpush
-
-@section('content')
 
     <div class="witr_swiper_area">
         <div class="swiper-container witr_active_id5 ">
