@@ -1,49 +1,54 @@
+@extends('layouts.app')
 
+@section('title', '- Home')
+
+@push('custom_css')
+@endpush
 
 @section('content')
 
     <div class="witr_swiper_area">
         <div class="swiper-container witr_active_id5 ">
             <div class="swiper-wrapper">
-                <div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
-                    <div class="witr_sw_text_area text-left">
-                        <div class="witr_swiper_content ">
-                            <h1>Welcome To Ortobay! </h1>
-                            <h2>Orthopedic Surgery in Puerto Vallarta, Mexico</h2>
-                            <p>We take pride in welcoming patients from around the globe
-                                to experience world-class orthopedic care
-                                with Dr. Daniel Ponce in Puerto Vallarta.</p>
-                            <!-- btn gradient style -->
-                            <div class="slider_btn">
-                                <div class="witr_btn_style">
-                                    <div class="witr_btn_sinner">
-                                        <a class="witr_btn" href="index-2.html#">Make Appointment</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide witr_swiper_height"
-                    style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
-			background-position: right center; background-color: #dff3f2;">
-                    <div class="witr_sw_text_area text-left">
-                        <div class="witr_swiper_content ">
-                            <h1>Quality Orthopedic Care</h1>
-                            <h2>Orthopedic Surgery in Puerto Vallarta, Mexico</h2>
-                            <p>Whether you're a local resident or visiting from abroad, you’ll receive professional,
-                                personalized care tailored to your unique needs</p>
-                            <!-- btn gradient style -->
-                            <div class="slider_btn">
-                                <div class="witr_btn_style">
-                                    <div class="witr_btn_sinner">
-                                        <a class="witr_btn" href="index-2.html#">Make Appointment</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+			 <div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
+					<div class="witr_sw_text_area text-left">
+						<div class="witr_swiper_content ">
+							<h1>Bienvenidos a Orthobay!</h1>
+							<h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
+							<p>Nos enorgullece dar la bienvenida a pacientes de todo el mundo para experimentar atención 
+								ortopédica de clase mundial con el Dr. Daniel Ponce en Puerto Vallarta</p>
+							<!-- btn gradient style -->
+							<div class="slider_btn">
+								<div class="witr_btn_style">
+									<div class="witr_btn_sinner">
+										<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
+				background-position: right center; background-color: #dff3f2;">
+					<div class="witr_sw_text_area text-left">
+						<div class="witr_swiper_content ">
+							<h1>Calidad en Atención Ortopédica</h1>
+							<h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
+							<p>Ya sea que vivas en Puerto Vallarta o estés de visita desde el extranjero, 
+								recibirás atención profesional y personalizada adaptada a tus necesidades únicas.</p>
+							<!-- btn gradient style -->
+							<div class="slider_btn">
+								<div class="witr_btn_style">
+									<div class="witr_btn_sinner">
+										<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
             </div>
             <!-- Add Pagination -->
             <div class="swiper-scrollbar"></div>
@@ -64,10 +69,10 @@
                     <div class="all_feature_color single_feature2 text-left">
                         <div class="witr_feature2">
                             <div class="witr_fea2_icon_top">
-                                <i class="fas fa-wheelchair"></i>
+                                <i class="fas fa-heart"></i>
                             </div>
-                            <h3>Warmth</h3>
-                            <p>We treat you and care for your integrity and health like family</p>
+                            <h3>Calidez</h3>
+                            <p>Te tratamos y cuidamos tu integridad y salud como familia </p>
                             <div class="witr_feature2_icon">
                                 <i class="fas fa-wheelchair"></i>
                             </div>
@@ -81,8 +86,8 @@
                             <div class="witr_fea2_icon_top">
                                 <i class="fas fa-briefcase-medical"></i>
                             </div>
-                            <h3>Trust</h3>
-                            <p>We get the job done right the first time, taking care of every detail.</p>
+                            <h3>Confianza</h3>
+                            <p>Hacemos bien el trabajo a la primera y cuidamos cada detalle</p>
                             <div class="witr_feature2_icon">
                                 <i class="fas fa-briefcase-medical"></i>
                             </div>
@@ -94,10 +99,10 @@
                     <div class="all_feature_color single_feature2 text-left">
                         <div class="witr_feature2">
                             <div class="witr_fea2_icon_top">
-                                <i class="fas fa-flask"></i>
+                                <i class="fas fa-check"></i>
                             </div>
-                            <h3>Quality</h3>
-                            <p>We use only the best materials, in top-tier specialized facilities.</p>
+                            <h3>Calidad</h3>
+                            <p>Solo utilizamos los mejores materiales, en las mas especializadas instalaciones.</p>
                             <div class="witr_feature2_icon">
                                 <i class="fas fa-flask"></i>
                             </div>
@@ -128,7 +133,7 @@
                                             data-autoplay="true" href="https://www.youtube.com/shorts/uMhoaKaF1Z8">
                                             <i class="fas fa-play"></i>
                                         </a>
-                                        <h3>Our Watch Video!</h3>
+                                        <h3>Mira nuestro Video! </h3>
                                     </div>
                                 </div>
                             </div>
@@ -139,12 +144,14 @@
                     <div class="witr_section_right">
                         <div class="witr_section_title">
                             <div class="witr_section_title_inner text-justify">
-                                <h2>Meet the Doctor</h2>
+                                <h2>Conoce al doctor</h2>
                                 <h3>Daniel Ponce Covarrubias</h3>
-                                <p>Dr. Daniel Ponce is originally from Guadalajara, Mexico.
-                                    He completed his medical degree at the University of Guadalajara, followed by specialty
-                                    training at the Mexican Social Security Institute (IMSS),
-                                    with rotations in Mexico City, the United States, and Latin America. </p>
+                                <p>El doctor Daniel Ponce es originario de la ciudad de Guadalajara, México, 
+									su formación médica la realizó en la Universidad de Guadalajara y 
+									posteriormente sus estudios de especialidad los realizó 
+									dentro del Instituto Mexicano del Seguro Social (IMSS), 
+								rotando en Ciudad de México así como en USA y Latinoamérica. 
+								 </p>
                             </div>
                         </div>
                         <div class="em-service2 sleft all_color_service">
@@ -156,16 +163,15 @@
                                         </div>
                                         <div class="em-service-inner">
                                             <div class="em-service-title">
-                                                <h3>Your Trusted Expert in Orthopedic Surgery</h3>
+                                                <h3>Tu Experto de Confianza en Cirugía Ortopédica</h3>
                                             </div>
                                             <div class="em-service-desc text-justify">
-                                                <p>His mission is to always provide the best patient care with kindness,
-                                                    responsibility, and commitment, delivering excellence in every surgery.
-                                                    With over 10 years of experience, he has specialized in joint
-                                                    replacement
-                                                    and arthroscopic surgery. His current medical practice is
-                                                    focused on medical tourism, making world-class care more accessible to
-                                                    international patients. </p>
+                                                <p>Su visión es siempre ofrecer la mejor atención para el paciente, 
+													bajo un esquema de amabilidad, responsabilidad y compromiso y dar lo mejor en cada cirugía.
+													Durante su experiencia de más de 10 años se ha especializado en cirugía 
+													de reemplazo articular así como cirugía artroscopica, y actualmente 
+													su práctica médica está enfocada 
+													al turismo médico y ampliar sus conocimientos a la población mundial a costos accesibles!.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -185,7 +191,7 @@
                                         <div class="em-service-inner">
                                             <div class="em-service-title"></div>
                                             <div class="em-service-desc">
-                                                <p>Board Certified by the Mexican Orthopedic Council</p>
+                                                <p>El Dr Ponce es un médico certificado ante el consejo Mexicano de Ortopedia</p>
                                             </div>
                                         </div>
                                     </div>
@@ -205,7 +211,7 @@
                                         <div class="em-service-inner">
                                             <div class="em-service-title"></div>
                                             <div class="em-service-desc">
-                                                <p>Active member of Femecot and speaker at various national congresses</p>
+                                                <p>Miembro activo de Femecot y ha sido ponente en varios congresos nacionales.  </p>
                                             </div>
                                         </div>
                                     </div>
@@ -226,12 +232,12 @@
                 <div class="col-lg-12">
                     <div class="witr_section_title">
                         <div class="witr_section_title_inner text-center">
-                            <h2>Orthopedic Services</h2>
+                            <h2>Servicios Ortopédicos Integrales</h2>
                             <div class="witr_image_title">
                                 <img src="assets/images/title-icon-1.png" alt="">
                             </div>
-                            <h3></h3>
-                            <h1>Puerto Vallarta, Mexico</h1>
+                            <h3>Puerto Vallarta México</h3>
+                            <h1></h1>
                         </div>
                     </div>
                 </div>
@@ -240,20 +246,20 @@
                         <div class="witr_adv_tab_menu">
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link epo-4931cc5" data-toggle="tab"
+                                    <a class="nav-link epo-4931cc5 active" data-toggle="tab"
                                         href="index-2.html#tx_tab_01">
                                         <span class="witr_tab_icona">
                                             <i class="icofont-bone"></i>
                                         </span>
-                                        <strong>Knee Surgery</strong>
+                                        <strong>Cirugia de Rodilla</strong>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link epo-1b77303" data-toggle="tab" href="index-2.html#tx_tab_02">
                                         <span class="witr_tab_icona">
-                                            <i class=""></i>
+                                            <i class="icofont-user-alt-3"></i>
                                         </span>
-                                        <strong>Shoulder Surgery</strong>
+                                        <strong>Cirugia de hombro</strong>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -261,7 +267,7 @@
                                         <span class="witr_tab_icona">
                                             <i class="icofont-bone"></i>
                                         </span>
-                                        <strong>Hip Surgery</strong>
+                                        <strong>Cirugia de cadera</strong>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -269,7 +275,7 @@
                                         <span class="witr_tab_icona">
                                             <i class="icofont-disabled"></i>
                                         </span>
-                                        <strong>Back Surgery</strong>
+                                        <strong>Cirugia de espalda</strong>
                                     </a>
                                 </li>
                             </ul>
@@ -283,19 +289,22 @@
                                             <div class="witr_tab_right">
                                                 <div class="witr_section_title">
                                                     <div class="witr_section_title_inner text-left">
-                                                        <h2>Why Travel to See Dr. Daniel?</h2>
-                                                        <p>Traveling to Mexico for orthopedic surgery can be a
-                                                            cost-effective option, offering high-quality medical
-                                                            services at a fraction of U.S. prices, with shorter wait times
-                                                            than in Canada.</p>
+                                                        <h2>¿Por qué viajar para ver al Dr. Daniel?</h2>
+                                                        <p>Viajar a México para una cirugía ortopédica puede ser
+                                                            una opción rentable, ofreciendo servicios médicos de alta
+                                                            calidad a
+                                                            una fracción del precio encontrado en EE. UU.
+                                                            y con tiempos de espera más cortos que en Canadá.</p>
                                                     </div>
                                                     <div class="witr_section_title_inner text-left">
                                                         <h2>Puerto Vallarta</h2>
-                                                        <p>Puerto Vallarta, located on Mexico’s Pacific coast, is known for
-                                                            its stunning beaches, vibrant nightlife, and rich cultural
-                                                            history. This picturesque destination offers the perfect balance
-                                                            between relaxation and adventure, from whale watching to
-                                                            strolling through cobblestone streets and art galleries.</p>
+                                                        <p>Puerto Vallarta, ubicado en la costa del Pacífico
+                                                            de México, es conocido por sus impresionantes playas,
+                                                            vibrante vida nocturna y rica historia cultural.
+                                                            Este pintoresco destino ofrece una mezcla perfecta
+                                                            de relajación y aventura, con actividades que van
+                                                            desde la observación de ballenas hasta explorar
+                                                            calles adoquinadas y galerías de arte locales.</p>
                                                     </div>
                                                 </div>
                                                 <div class="em-service2 sleft all_color_service border_top">
@@ -311,13 +320,14 @@
                                                                 <div class="em-service-inner">
                                                                     <div class="em-service-title">
                                                                         <div class="witr_section_title_inner text-left">
-                                                                            <h2> Benefits</h2><br>
+                                                                            <h2>Beneficios</h2><br>
                                                                             <ul class="menu">
-                                                                                <li></i>State-of-the-art facilities</li>
-                                                                                <li></i>Bilingual staff</li>
-                                                                                <li></i>Treatment within just a few weeks
+                                                                                <li></i>Instalaciones de Última Generación
                                                                                 </li>
-                                                                                <li></i>A fraction of the cost compared to the U.S.
+                                                                                <li></i>Personal Bilingüe</li>
+                                                                                <li></i>Tratamiento en Solo Unas Semanas
+                                                                                </li>
+                                                                                <li></i>Una Fracción del Costo en EE. UU.
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -328,12 +338,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab_title">
-                                                    <h2>Surgery with Dr. Daniel can cost up to 70% less than the same procedure in the U.S.</h2>
+                                                    <h2>La cirugía con el Dr. Daniel puede ser hasta un 70% más barata que
+                                                        realizar la misma cirugía en los Estados Unidos.</h2>
                                                 </div>
                                                 <div class="witr_button_area">
                                                     <div class="witr_btn_style mr">
                                                         <div class="witr_btn_sinner">
-                                                            <a href="index-2.html#" class="witr_btn">Read More Contant
+                                                            <a href="index-2.html#" class="witr_btn">Leer mas
                                                                 <div class="pluse_btn_icon">
                                                                     <span class="fas fa-arrow-right"></span>
                                                                 </div>
@@ -359,6 +370,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade epo-1b77303" id="tx_tab_02">
                                     <div class="row tab_pane_bg">
                                         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -367,7 +379,7 @@
                                                     <img src="assets/images/hospital_ortopedia.png" alt="">
                                                     <div class="play-overlay ">
                                                         <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                            target="_blank" data-vbtype="youtube" data-autoplay="true"
+                                                            data-vbtype="youtube" data-autoplay="true"
                                                             href="#">
                                                             <i class="fas fa-play"></i>
                                                         </a>
@@ -403,13 +415,4 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
 @endsection
