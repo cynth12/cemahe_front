@@ -8,7 +8,7 @@
     <head>
         @switch(app()->getLocale())
             @case('es')
-                <title>Orthobay Vallarta 🦴 Ortopedia y Traumatología</title>
+                <title>CEMAHE 🦴 Clinica de heridas y estomas</title>
                 <meta name="description" content="Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. Atención de calidad para pacientes locales e internacionales.">
                 @section('og_title', 'Orthobay Vallarta 🦴 Ortopedia y Traumatología')
                 @section('og_description', 'Servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta.')

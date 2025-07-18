@@ -52,25 +52,14 @@
                                         <div class="col-md-9 col-sm-9 col-xs-8">
                                             <nav class="smartdev_menu">
                                                 <ul class="sub-menu">
-                                                    @if (app()->getLocale() == 'es')
+                                                   
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/#inicio')}}">Inicio</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/rodilla')}}">Rodilla</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/cadera')}}">Cadera</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/hombro')}}">Hombro</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/espalda')}}">Espalda</a></li>
                                                     <li class="menu-item-has-children"><a href="{{ url('/es/nosotros')}}">Nosotros</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
-                                                    
-                                            @else
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/knee')}}">Knee</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/hip')}}">Hip</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/shoulder')}}">Shoulder</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/back')}}">Back</a></li>  
-                                                    <li class="menu-item-has-children"><a href="{{ url('/en/about')}}">About</a></li>  
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es') }}">Spanish</a></li> 
-                                                    
-                                            @endif     
+                                                
                                                 </ul>
                                             </nav>
                                         </div>
@@ -106,23 +95,13 @@
     <div class="menu_area mobile-menu">
         <nav class="smartdev_menu">
             <ul class="sub-menu">
-                @if (app()->getLocale() == 'es')
+               
                     <li class="menu-item-has-children"><a href="{{ url('/es/#inicio') }}">Inicio</a></li>
                     <li class="menu-item-has-children"><a href="/es/#rodilla">Rodilla</a></li>
                     <li class="menu-item-has-children"><a href="/es/#cadera">Cadera</a></li>
                     <li class="menu-item-has-children"><a href="/es/#hombro">Hombro</a></li>
                     <li class="menu-item-has-children"><a href="/es/#espalda">Espalda</a></li>
                     <li class="menu-item-has-children"><a href="/es/#nosotros">Nosotros</a></li>
-                    <li class="menu-item-has-children"><a href="{{ url('/en') }}">Ingles</a></li>
-                @else
-                    <li class="menu-item-has-children"><a href="{{ url('/en/#home') }}">Home</a></li>
-                    <li class="menu-item-has-children"><a href="/en/#knee">Knee</a></li>
-                    <li class="menu-item-has-children"><a href="/en/#hip">Hip</a></li>
-                    <li class="menu-item-has-children"><a href="/en/#shoulder">Shoulder</a></li>
-                    <li class="menu-item-has-children"><a href="/en/#back">Back</a></li>
-                    <li class="menu-item-has-children"><a href="/en/#about">About</a></li>
-                    <li class="menu-item-has-children"><a href="{{ url('/es') }}">Spanish</a></li>
-                @endif
             </ul>
         </nav>
     </div>
