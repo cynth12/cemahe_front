@@ -13,13 +13,6 @@
                 @section('og_title', 'Orthobay Vallarta 🦴 Ortopedia y Traumatología')
                 @section('og_description', 'Servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta.')
                 @break
-    
-            @case('en')
-                <title>Orthobay Vallarta 🦴 Orthopedic and Trauma Surgery</title>
-                <meta name="description" content="Orthobay Vallarta provides specialized orthopedic and trauma surgery services in Puerto Vallarta. High-quality care for local and international patients.">
-                @section('og_title', 'Orthobay Vallarta 🦴 Orthopedic and Trauma Surgery')
-                @section('og_description', 'Specialized orthopedic and trauma surgery in Puerto Vallarta, Mexico.')
-                @break
         @endswitch
     
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,15 +43,9 @@
         @yield('content')
     </div>
 
-    @switch(app()->getLocale())
-        @case('es')
-            @include('es.footer')
-        @break
-
-        @case('en')
-            @include('en.footer')
-        @break
-    @endswitch
+    
+    @include('footer')
+       
 
     @include('layouts.commonJS')
 
