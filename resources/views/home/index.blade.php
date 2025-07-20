@@ -22,7 +22,7 @@
 							<div class="slider_btn">
 								<div class="witr_btn_style">
 									<div class="witr_btn_sinner">
-										<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
+										<a class="witr_btn" href="{{ route('contacto') }}">Agenda tu cita</a>
 									</div>
 								</div>
 							</div>
@@ -41,7 +41,8 @@
 							<div class="slider_btn">
 								<div class="witr_btn_style">
 									<div class="witr_btn_sinner">
-										<a class="witr_btn" href="index-2.html#">Agenda tu cita</a>
+										<a class="witr_btn" href="{{ route('contacto') }}">Agenda tu cita</a>
+    
 									</div>
 								</div>
 							</div>
