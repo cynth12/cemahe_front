@@ -10,13 +10,14 @@
     <div class="witr_swiper_area">
         <div class="swiper-container witr_active_id5 ">
             <div class="swiper-wrapper">
-			 <div class="swiper-slide witr_swiper_height" style="background-image: url(assets/images/slider-2.jpg); ">
+			 <div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/slider-2.jpg'); ">
 					<div class="witr_sw_text_area text-left">
 						<div class="witr_swiper_content ">
-							<h1>Bienvenidos a Orthobay!</h1>
-							<h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
-							<p>Nos enorgullece dar la bienvenida a pacientes de todo el mundo para experimentar atención 
-								ortopédica de clase mundial con el Dr. Daniel Ponce en Puerto Vallarta</p>
+							<h2>CEMAHE</h2>
+							<h1>Centro especializado para el manejo avanzado de heridas y estomas</h1>
+							<p>Somos un equipo de especialistas 
+                                dedicados al manejo de pacientes con enfermedades crónico-degenerativas. 
+                            </p>
 							<!-- btn gradient style -->
 							<div class="slider_btn">
 								<div class="witr_btn_style">
@@ -28,14 +29,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/daniel_ponce.png'); background-size: contain; background-repeat: no-repeat; 
-				background-position: right center; background-color: #dff3f2;">
+				<div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/slider-2.jpg'); ">
 					<div class="witr_sw_text_area text-left">
 						<div class="witr_swiper_content ">
-							<h1>Calidad en Atención Ortopédica</h1>
-							<h2>Cirugía Ortopédica en Puerto Vallarta, México</h2>
-							<p>Ya sea que vivas en Puerto Vallarta o estés de visita desde el extranjero, 
-								recibirás atención profesional y personalizada adaptada a tus necesidades únicas.</p>
+							<h2>Calidad en Atención especializada</h2>
+							<h1>Tratamiento de heridas y estomas en Pachuca Hidalgo</h1>
+							<p> 
+                            Ofrecemos tratamientos con tecnología avanzada para el manejo de heridas, 
+                            lo que nos permite acelerar el proceso de cicatrización de manera rápida y efectiva.</p>
 							<!-- btn gradient style -->
 							<div class="slider_btn">
 								<div class="witr_btn_style">

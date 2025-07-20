@@ -7,8 +7,8 @@
                 <div class="col-xs-12 col-lg-9 col-xl-9 col-md-9 col-sm-12">
                     <div class="top-address text-left">
                         <p>
-                            <span><i class="fas fa-home"></i>Puerto Vallarta, Jalisco</span>
-                            <a href="index.html#"><i class="fas fa-envelope"></i>info@orthobay.com</a>
+                            <span><i class="fas fa-home"></i>Pachuca Hidalgo</span>
+                            <a href="index.html#"><i class="fas fa-envelope"></i>info@cemahe.com</a>
                         </p>
                     </div>
                 </div>
@@ -40,12 +40,12 @@
                                         <!-- LOGO -->
                                         <div class="col-md-3 col-sm-3 col-xs-4">
                                             <div class="logo">
-                                                <a class="main_sticky_main_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo_1_orto.png') }}"
-                                                        alt="smartdev">
+                                                <a class="main_sticky_main_l" href="index.html" title="cemahe">
+                                                    <img src="{{ asset('assets/images/logo_cemahe.png') }}"
+                                                        alt="cemahe">
                                                 </a>
                                                 <a class="main_sticky_l" href="index.html" title="smartdev">
-                                                    <img src="{{ asset('assets/images/logo_2.png') }}" alt="smartdev">
+                                                    <img src="{{ asset('assets/images/logo_cemahe_black.png') }}" alt="cemahe">
                                                 </a>
                                             </div>
                                         </div>
@@ -53,13 +53,10 @@
                                             <nav class="smartdev_menu">
                                                 <ul class="sub-menu">
                                                    
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/#inicio')}}">Inicio</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/rodilla')}}">Rodilla</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/cadera')}}">Cadera</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/hombro')}}">Hombro</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/espalda')}}">Espalda</a></li>
-                                                    <li class="menu-item-has-children"><a href="{{ url('/es/nosotros')}}">Nosotros</a></li>
-                                                
+                                                <li class="menu-item-has-children"><a href="{{ route('home') }}">Inicio</a></li>
+                                                <li class="menu-item-has-children"><a href="{{ route('nosotros') }}">Nosotros</a></li>
+                                                <li class="menu-item-has-children"><a href="{{ route('servicios') }}">Servicios</a>
+                                                 <li class="menu-item-has-children"><a href="{{ route('contacto') }}">Contacto</a>
                                                 </ul>
                                             </nav>
                                         </div>
@@ -81,8 +78,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="mobile_menu_logo text-center">
-                    <a href="index.html" title="smartdev">
-                        <img src="{{ asset('assets/images/logo_ortobay_1.png') }}" alt="smartdev">
+                    <a href="index.html" title="cemahe">
+                        <img src="{{ asset('assets/images/logo_cemahe.png') }}" alt="cemahe">
                     </a>
                 </div>
             </div>
@@ -96,12 +93,10 @@
         <nav class="smartdev_menu">
             <ul class="sub-menu">
                
-                    <li class="menu-item-has-children"><a href="{{ url('/es/#inicio') }}">Inicio</a></li>
-                    <li class="menu-item-has-children"><a href="/es/#rodilla">Rodilla</a></li>
-                    <li class="menu-item-has-children"><a href="/es/#cadera">Cadera</a></li>
-                    <li class="menu-item-has-children"><a href="/es/#hombro">Hombro</a></li>
-                    <li class="menu-item-has-children"><a href="/es/#espalda">Espalda</a></li>
-                    <li class="menu-item-has-children"><a href="/es/#nosotros">Nosotros</a></li>
+                    <li class="menu-item-has-children"><a href="{{ route('home') }}">Inicio</a></li>
+                    <li class="menu-item-has-children"><a href="{{ route('nosotros') }}">Nosotros</a></li>
+                    <li class="menu-item-has-children"><a href="{{ route('servicios') }}">Servicios</a>
+                    <li class="menu-item-has-children"><a href="{{ route('contacto') }}">Contacto</a>
             </ul>
         </nav>
     </div>
