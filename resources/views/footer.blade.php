@@ -1,119 +1,65 @@
-<div class="witrfm_area">
-	<div class="footer-middle">  
+<footer class="footer footer-bg de-pd" style="background-image: url(assets/img/bg/bg-form.jpg)">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget widget_smartdev_description_widget">				
-						<div class="smartdev-description-area">
-							<a href="index.html#"><img src="{{ asset('assets/images/logo_2.png') }}" alt=""></a>
-							 <p>Orthobay Vallarta ofrece servicios médicos especializados en ortopedia y traumatología en Puerto Vallarta. 
-								Atención de calidad para pacientes locales e internacionales.</p>
-							 <div class="social-icons">
-								<a href="https://www.facebook.com/share/1AFnvTu7wm/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://www.instagram.com/orthobay_drdanielponce/profilecard/?igsh=a3RtcHE3OHgzMW8y"><i class="fab fa-instagram"></i></a>
-								<a href="index.html#"><i class="fab fa-linkedin"></i></a>
-							</div>
-						</div>
+			<div class="footer-widget">
+				<div class="footer-widget-wrapper de-padding">
+					<div class="footer-widget-box ab-us">
+						<h4 class="foo-widget-title">About Us</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim alias, quod officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</p>
+						<p>
+							189, Kyes road, F1 456 Caron Town. Office No 3456
+						</p>
+						
+						<ul class="footer-social">
+							<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+						</ul>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget widget_nav_menu">
-						<h2 class="widget-title">Servicios</h2>
-						<div class="menu-help-link-container">
-							<ul class="menu">
-								<li><a href="index.html#">– Cirugia de rodilla</a></li>
-								<li><a href="index.html#">– Cirugia de hombro</a></li>
-								<li><a href="index.html#">– Cirugia de cadera</a></li>
-								<li><a href="index.html#">– Cirugia de columna</a></li>
-							</ul>
-						</div>
-					</div>	
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget about_us">
-						<h2 class="widget-title">Contacto</h2>	
-						<div class="about-footer">
-							<div class="footer-widget address">
-								<div class="footer-logo"></div>
-								<div class="footer-address">
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon">
-											<i class="fa fa-map-marker"></i>
-										</div>									
-										<div class="footer-sociala-info">				
-											<p>Dirección: Núcleo Médico Joya, office # 02, 55 
-												Paseo de los Cocoteros Av, 
-												Zona Hotelera, 
-												Nuevo Nayarit, Nayarit, ZipCode 63735</p>
-										</div> 
-									</div> 
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon">
-											<i class="fa fa-phone"></i>
-										</div> 									
-										<div class="footer-sociala-info">   
-												<p>Telefono: +52 322 421 8769<br> Whatsapp:  +52 322 2726803</p>
-										</div>
-									</div>
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon"> 
-											<i class="fas fa-envelope"></i>
-										</div> 
-										<div class="footer-sociala-info">  
-											<p>Email:  orthobay.drponce@gmail.com</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>	
-					</div>	
-				</div>
-				<div class="col-sm-12 col-md-6  col-lg-3 last">
-					<div class="widget_text widget widget_custom_html">
-						<h2 class="widget-title">Horario</h2>
-						<div class="textwidget custom-html-widget">
-							<div class="witr_table">
-								<div class="witr_sub_table">
-									<span>Lunes, Miercoles y Viernes</span>
-									<span> 10:00 a 21:00</span>
-								</div>
-								<div class="witr_sub_table">	
-									<span>Sabado</span>
-									<span>Cerrado</span>
-								</div>		
-								<div class="witr_sub_table">		
-									<span>Domingo</span>
-									<span>Cerrado</span>
-								</div>
-								<div class="witr_sub_table">		
-									<span>Emergencias:</span>
-									<span> 24/7</span>
-								</div>
-							</div>
-						</div>
-					</div>				
-				</div>
-			</div>	
-		</div>	
-	</div>	
-	<div class="footer-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6  col-sm-12">
-					<div class="copy-right-text">
-						<p>Copyright &copy; orthobay derechos resrvados.</p>
+					<div class="footer-widget-box footer-sub">
+						<h4 class="foo-widget-title">Our Departments.</h4>
+						<ul class="foo-list">
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Medoz &amp; intensive care</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Home Care</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Caregivers</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Diagnosis &amp; Investigation</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Medical &amp; Surgical</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Mental Health</a></li>
+						</ul>											
 					</div>
-				</div>
-				<div class="col-lg-6 col-md-6  col-sm-12">				
-					<div class="footer-menu">
-						<ul class="text-right">
-							<li><a href="index.html#">Inicio</a></li>
-							<li><a href="index.html#">Nosotros</a></li>
-							<li><a href="index.html#">Contacto</a></li>
-						</ul> 				
+					<div class="footer-widget-box footer-cat">
+						<h4 class="foo-widget-title">Helpful Links.</h4>
+						<ul class="foo-list">
+							<li><i class="fas fa-arrow-circle-right"></i><a href="about.html">Who We Are</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Our Team Mission</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="blog.html">History</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Awards since </a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Experience Perpose</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Success Story</a></li>
+						</ul>
+					</div>
+					<div class="footer-widget-box footer-link">
+						<h4 class="foo-widget-title">Opening Hours</h4>
+						<ul class="ads">
+							<li><span>Monday - Tuesday</span><span>9.00 - 17.00</span></li>
+							<li><span>Saturday</span><span>9.00 - 16.00</span></li>
+							<li><span>Monday - Tuesday</span><span>9.00 - 17.00</span></li>
+							<li><span>Sunday</span><span> Closed</span></li>
+						</ul>
+						<div class="subscribe">
+							<form>
+								<input type="text" placeholder="Type Your Email">
+								<button type="submit"><i class="fas fa-location-arrow"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="copyright text-center py-4">
+				<p class="mb-0">All Right Reserved By Templatebucket </p>
+			</div>
 		</div>
-	</div>
-</div>
+	</footer>
+	<!-- End Footer -->

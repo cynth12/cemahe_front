@@ -1,3 +1,6 @@
+
+
+
 @extends('layouts.app')
 
 @section('title', '- Home')
@@ -7,414 +10,910 @@
 
 @section('content')
 
-    <div class="witr_swiper_area">
-        <div class="swiper-container witr_active_id5 ">
-            <div class="swiper-wrapper">
-			 <div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/slider-2.jpg'); ">
-					<div class="witr_sw_text_area text-left">
-						<div class="witr_swiper_content ">
-							<h2>CEMAHE</h2>
-							<h1>Centro especializado para el manejo avanzado de heridas y estomas</h1>
-							<p>Somos un equipo de especialistas 
-                                dedicados al manejo de pacientes con enfermedades crónico-degenerativas. 
-                            </p>
-							<!-- btn gradient style -->
-							<div class="slider_btn">
-								<div class="witr_btn_style">
-									<div class="witr_btn_sinner">
-										<a class="witr_btn" href="{{ route('contacto') }}">Agenda tu cita</a>
+<main class="main">
+		
+		<!-- Start Slider
+		============================================= -->
+		<div class="hero-area">
+			<div class="swiper hero-sldr">
+				<div class="swiper-wrapper">
+					<div class="hero-single swiper-slide bg-overlay hero-bg" style="background-image: url(assets/img/header/hdr-1.jpg)">
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-6">
+									<div class="hero-content">
+										<h2 class="hero-title">
+											Call For Emrgency Doctors At Home
+										</h2>
+										<p>
+											Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae  vel illum qui dolorem eum velit esse quam nihil consequatur 
+										</p>
+										<div class="hero-btn">
+											<a href="contact.html" class="service-btn btn-white btn-animated">
+												Contact Us
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero-single swiper-slide hero-overlay hero-bg" style="background-image: url(assets/img/header/hdr-2.jpg)">
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-6 offset-xl-3">
+									<div class="hero-content text-center">
+										<h2 class="hero-title">
+											We care you, and your family at home
+										</h2>
+										<p class="p-0">
+											Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae  vel illum qui dolorem eum velit esse quam nihil consequatur 
+										</p>
+										<div class="hero-btn">
+											<a href="contact.html" class="service-btn btn-white btn-animated">
+												Contact Us
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="swiper-slide witr_swiper_height" style="background-image: url('assets/images/slider-2.jpg'); ">
-					<div class="witr_sw_text_area text-left">
-						<div class="witr_swiper_content ">
-							<h2>Calidad en Atención especializada</h2>
-							<h1>Tratamiento de heridas y estomas en Pachuca Hidalgo</h1>
-							<p> 
-                            Ofrecemos tratamientos con tecnología avanzada para el manejo de heridas, 
-                            lo que nos permite acelerar el proceso de cicatrización de manera rápida y efectiva.</p>
-							<!-- btn gradient style -->
-							<div class="slider_btn">
-								<div class="witr_btn_style">
-									<div class="witr_btn_sinner">
-										<a class="witr_btn" href="{{ route('contacto') }}">Agenda tu cita</a>
-    
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+		<!-- End Slider -->
+		
+		<!-- Start About
+		============================================= -->
+		<div class="about-area de-padding bg">
+			<div class="container">
+				<div class="about-wpr">
+					<div class="row g-5">
+						<div class="col-xl-7">
+							<div class="about-left">
+								<div class="about-pics pos-rel">
+									<div class="about-pic grid-2">
+										<img src="assets/img/about/about-1.jpg" class="about-pic-1" alt="Image Not Found">
+										<img src="assets/img/about/about-2.jpg" class="about-pic-2" alt="Image Not Found">
 									</div>
+									<img src="assets/img/about/about-3.jpg" class="about-pic-3" alt="Image Not Found">
+									<img src="assets/img/shape/shape-1.png" class="about-pic-4" alt="Image Not Found">
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-
-
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-scrollbar"></div>
-            <div class="swiper-button-next "></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </div>
-
-
-
-
-    <!-- smartdev_features_area -->
-    <div class="smartdev_features_area">
-        <div class="container">
-            <div class="row features">
-                <!-- smartdev_features_01 -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="all_feature_color single_feature2 text-left">
-                        <div class="witr_feature2">
-                            <div class="witr_fea2_icon_top">
-                                <i class="fas fa-heart"></i>
-                            </div>
-                            <h3>Calidez</h3>
-                            <p>Te tratamos y cuidamos tu integridad y salud como familia </p>
-                            <div class="witr_feature2_icon">
-                                <i class="fas fa-wheelchair"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- smartdev_features_02 -->
-                <div class="col-lg-4 col-md-6 col-sm-12 pdlf">
-                    <div class="all_feature_color single_feature2 text-left">
-                        <div class="witr_feature2">
-                            <div class="witr_fea2_icon_top">
-                                <i class="fas fa-briefcase-medical"></i>
-                            </div>
-                            <h3>Confianza</h3>
-                            <p>Hacemos bien el trabajo a la primera y cuidamos cada detalle</p>
-                            <div class="witr_feature2_icon">
-                                <i class="fas fa-briefcase-medical"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- smartdev_features_03 -->
-                <div class="col-lg-4 col-md-6 col-sm-12 pdlf">
-                    <div class="all_feature_color single_feature2 text-left">
-                        <div class="witr_feature2">
-                            <div class="witr_fea2_icon_top">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <h3>Calidad</h3>
-                            <p>Solo utilizamos los mejores materiales, en las mas especializadas instalaciones.</p>
-                            <div class="witr_feature2_icon">
-                                <i class="fas fa-flask"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- smartdev_about_area -->
-    <div class="smartdev_about_area" id="about">
-        <div class="container">
-            <div class="row about_area">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="single_image_area">
-                        <div class="single_image  ">
-                            <img src="assets/images/doctor_1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row video_area">
-                        <div class="col-lg-6 col-md-6 col-sm-12"></div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="video-part">
-                                <div class="video-overlay witr_all_color_v">
-                                    <div class="video-item text-center">
-                                        <a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube"
-                                            data-autoplay="true" href="https://www.youtube.com/shorts/uMhoaKaF1Z8">
-                                            <i class="fas fa-play"></i>
-                                        </a>
-                                        <h3>Mira nuestro Video! </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="witr_section_right">
-                        <div class="witr_section_title">
-                            <div class="witr_section_title_inner text-justify">
-                                <h2>Conoce al doctor</h2>
-                                <h3>Daniel Ponce Covarrubias</h3>
-                                <p>El doctor Daniel Ponce es originario de la ciudad de Guadalajara, México, 
-									su formación médica la realizó en la Universidad de Guadalajara y 
-									posteriormente sus estudios de especialidad los realizó 
-									dentro del Instituto Mexicano del Seguro Social (IMSS), 
-								rotando en Ciudad de México así como en USA y Latinoamérica. 
-								 </p>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title">
-                                                <h3>Tu Experto de Confianza en Cirugía Ortopédica</h3>
-                                            </div>
-                                            <div class="em-service-desc text-justify">
-                                                <p>Su visión es siempre ofrecer la mejor atención para el paciente, 
-													bajo un esquema de amabilidad, responsabilidad y compromiso y dar lo mejor en cada cirugía.
-													Durante su experiencia de más de 10 años se ha especializado en cirugía 
-													de reemplazo articular así como cirugía artroscopica, y actualmente 
-													su práctica médica está enfocada 
-													al turismo médico y ampliar sus conocimientos a la población mundial a costos accesibles!.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text width_height_link_0 ">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                            <div class="em-service-icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>El Dr Ponce es un médico certificado ante el consejo Mexicano de Ortopedia</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="em-service2 sleft all_color_service">
-                            <div class="em_service_content ">
-                                <div class="em_single_service_text width_height_link_0 ">
-                                    <div class="service_top_image"></div>
-                                    <div class="text_box witr_s_flex">
-                                        <div class="service_top_text all_icon_color">
-                                            <div class="em-service-icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                        </div>
-                                        <div class="em-service-inner">
-                                            <div class="em-service-title"></div>
-                                            <div class="em-service-desc">
-                                                <p>Miembro activo de Femecot y ha sido ponente en varios congresos nacionales.  </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- smartdev_tab_contant_area -->
-    <div class="smartdev_tab_contant_area" id="tab">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="witr_section_title">
-                        <div class="witr_section_title_inner text-center">
-                            <h2>Servicios Ortopédicos Integrales</h2>
-                            <div class="witr_image_title">
-                                <img src="assets/images/title-icon-1.png" alt="">
-                            </div>
-                            <h3>Puerto Vallarta México</h3>
-                            <h1></h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 tab_top">
-                    <div class="witr_adv_tab_area witr_taba_style1 tab_all_colora">
-                        <div class="witr_adv_tab_menu">
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link epo-4931cc5 active" data-toggle="tab"
-                                        href="index-2.html#tx_tab_01">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-bone"></i>
-                                        </span>
-                                        <strong>Cirugia de Rodilla</strong>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-1b77303" data-toggle="tab" href="index-2.html#tx_tab_02">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-user-alt-3"></i>
-                                        </span>
-                                        <strong>Cirugia de hombro</strong>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-7b0660d" data-toggle="tab" href="index-2.html#tx_tab_03">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-bone"></i>
-                                        </span>
-                                        <strong>Cirugia de cadera</strong>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link epo-76ded62" data-toggle="tab" href="index-2.html#tx_tab_04">
-                                        <span class="witr_tab_icona">
-                                            <i class="icofont-disabled"></i>
-                                        </span>
-                                        <strong>Cirugia de espalda</strong>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Tab panes -->
-                        <div class="witr_adv_tab_content">
-                            <div class="tab-content">
-                                <div class="tab-pane fade epo-4931cc5 active show" id="tx_tab_01">
-                                    <div class="row tab_pane_bg">
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_tab_right">
-                                                <div class="witr_section_title">
-                                                    <div class="witr_section_title_inner text-left">
-                                                        <h2>¿Por qué viajar para ver al Dr. Daniel?</h2>
-                                                        <p>Viajar a México para una cirugía ortopédica puede ser
-                                                            una opción rentable, ofreciendo servicios médicos de alta
-                                                            calidad a
-                                                            una fracción del precio encontrado en EE. UU.
-                                                            y con tiempos de espera más cortos que en Canadá.</p>
-                                                    </div>
-                                                    <div class="witr_section_title_inner text-left">
-                                                        <h2>Puerto Vallarta</h2>
-                                                        <p>Puerto Vallarta, ubicado en la costa del Pacífico
-                                                            de México, es conocido por sus impresionantes playas,
-                                                            vibrante vida nocturna y rica historia cultural.
-                                                            Este pintoresco destino ofrece una mezcla perfecta
-                                                            de relajación y aventura, con actividades que van
-                                                            desde la observación de ballenas hasta explorar
-                                                            calles adoquinadas y galerías de arte locales.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="em-service2 sleft all_color_service border_top">
-                                                    <div class="em_service_content ">
-                                                        <div class="em_single_service_text width_height_link_0 ">
-                                                            <div class="service_top_image"></div>
-                                                            <div class="text_box witr_s_flex">
-                                                                <div class="service_top_text all_icon_color">
-                                                                    <div class="em-service-icon">
-                                                                        <i class="icofont-rounded-double-right"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="em-service-inner">
-                                                                    <div class="em-service-title">
-                                                                        <div class="witr_section_title_inner text-left">
-                                                                            <h2>Beneficios</h2><br>
-                                                                            <ul class="menu">
-                                                                                <li></i>Instalaciones de Última Generación
-                                                                                </li>
-                                                                                <li></i>Personal Bilingüe</li>
-                                                                                <li></i>Tratamiento en Solo Unas Semanas
-                                                                                </li>
-                                                                                <li></i>Una Fracción del Costo en EE. UU.
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab_title">
-                                                    <h2>La cirugía con el Dr. Daniel puede ser hasta un 70% más barata que
-                                                        realizar la misma cirugía en los Estados Unidos.</h2>
-                                                </div>
-                                                <div class="witr_button_area">
-                                                    <div class="witr_btn_style mr">
-                                                        <div class="witr_btn_sinner">
-                                                            <a href="index-2.html#" class="witr_btn">Leer mas
-                                                                <div class="pluse_btn_icon">
-                                                                    <span class="fas fa-arrow-right"></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_play_vi witr_all_color_v">
-                                                <div class="witr_videobg_image">
-                                                    <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <div class="play-overlay ">
-                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                            data-vbtype="youtube" data-autoplay="true"
-                                                            href="#">
-                                                            <i class="fas fa-play"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade epo-1b77303" id="tx_tab_02">
-                                    <div class="row tab_pane_bg">
-                                        <div class="col-lg-6 col-md-12 col-sm-12">
-                                            <div class="witr_play_vi witr_all_color_v">
-                                                <div class="witr_videobg_image">
-                                                    <img src="assets/images/hospital_ortopedia.png" alt="">
-                                                    <div class="play-overlay ">
-                                                        <a class="video-popup video-vemo-icon venobox vbox-item"
-                                                            data-vbtype="youtube" data-autoplay="true"
-                                                            href="#">
-                                                            <i class="fas fa-play"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-	<!-- smartdev_video_area -->
-<div class="smartdev_video_area">
-	<div class="container">	
-		<div class="row">
-			<div class="col-lg-12">				
-				<div class="witr_play_vi witr_all_color_v">
-					<div class="witr_videobg_image">
-						<div class="play-overlay ">
-							<a class="video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#">
-								<i class="fas fa-play"></i>					
-							</a>
+						<div class="col-xl-5">
+							<div class="about-right pl-30">
+								<span class="hero-sub-title">About Us</span>
+								<h2 class="hero-title">
+									Tackle The Challenge Of Delivering Health Care
+								</h2>
+								<p class="about-para">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem deserunt quod itaque, praesentium quos ratione molestiae deleniti tenetur consectetur id.
+								</p>
+								<ul class="about-list">
+									<li>Consultations Wif Specialized Pediatricians</li>
+									<li>A Wide Range Of Laboratory Studies</li>
+									<li>Ultrasound Examination</li>
+									<li>ECG, Echocardiography</li>
+								</ul>
+								<div class="about-opt grid-2">
+									<div class="about-opt-box">
+										<h5 class="heading-5 mb-0">Skilled Doctors</h5>
+									</div>
+									<div class="about-opt-box">
+										<h5 class="heading-5 mb-0">Latest Equipment</h5>
+									</div>
+									<div class="about-opt-box">
+										<h5 class="heading-5 mb-0">Positive Reviews</h5>
+									</div>
+									<div class="about-opt-box">
+										<h5 class="heading-5 mb-0">Quality Services</h5>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+		<!-- End About -->
+		
+		<!-- Start Service
+		============================================= -->
+		<div class="service-area de-padding bg-overlay  hero-bg" style="background-image: url(assets/img/service/service.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 offset-xl-3">
+						<div class="site-title wh text-center">
+							<h2>Our Service</h2>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, error! Quisquam voluptas molestias, praesentium voluptatum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="service-wpr grid-3">
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-solid fa-eye"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								eye care
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-solid fa-tooth"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								Denal Care
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-solid fa-bed"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								Kidney Operation
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-sharp fa-solid fa-hand-holding-medical"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								Cardiology
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-solid fa-brain"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								Neurology
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+					<div class="service-box">
+						<div class="service-icon">
+							<i class="fa-solid fa-bed-pulse"></i>
+						</div>
+						<div class="service-desc">
+							<h4 class="heading-4">
+								Major Operation
+							</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur dicta quisquam, repellat
+							</p>
+							<a href="https://themekar.com/templatebucket/medo/sevice-single.html" class="btn-2">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Service -->
+		
+		<!-- Start Why Choose Us
+		============================================= -->
+		<div class="why-area de-padding">
+			<div class="container">
+				<div class="why-wpr grid-2">
+					<div class="why-left">
+						<div class="why-left-content">
+							<div class="why-left-pic pos-rel text-center">
+								<img src="assets/img/choose/choose.png" alt="thumb">
+								<img src="assets/img/shape/shape-3.png" class="why-shape-1" alt="thumb">
+								<img src="assets/img/shape/shape-2.png" class="why-shape-2" alt="thumb">
+								<img src="assets/img/dot/17.png" class="why-shape-3" alt="thumb">
+							</div>
+						</div>
+					</div>
+					<div class="why-right">
+						<div class="why-right-content">
+							<h2 class="hero-title">
+								Consultation with your Best Doctor Anytime
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit maiores quidem labore libero deserunt, aspernatur!
+							</p>
+							<ul class="why-list">
+								<li><i class="fa-solid fa-house-medical"></i>Served Directly By Experts</li>
+								<li><i class="fa-sharp fa-solid fa-laptop-medical"></i>Easy online Service</li>
+							</ul>
+							<button type="submit" class="btn-submit">Make Appointment</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Why Choose Us -->
+		
+		<!-- Start medo
+		============================================= -->
+		<div class="medo-area de-padding pos-rel bg-black-3">
+			<div class="medo-shape">	
+				<img src="assets/img/shape/shape-4.png" class="medo-shape-1 up-move"  alt="thumb">
+			</div>
+			<div class="container">
+				<div class="medo-wpr">
+					<div class="medo-top">
+						<div class="row g-5">
+							<div class="col-xl-6">
+								<div class="medo-left">
+									<h2 class="hero-title wh mb-30">
+										We Will Help You To  Grow your conviction
+									</h2>
+									<p class="medo-txt mb-50">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias, ipsum aperiam! Obcaecati quae, harum.
+									</p>
+									<div class="counter-wpr counter-1 grid-3">
+										<div class="fun-fact">
+											<div class="fun-icon">
+												<i class="fa-solid fa-truck-medical"></i>
+											</div>
+											<div class="fun-desc">
+												<p class="timer" data-count="+" data-to="120" data-speed="3000"></p>
+												<span class="medium">Best Doctor</span>
+											</div>
+										</div>
+										<div class="fun-fact">
+											<div class="fun-icon">
+												<i class="fa-solid fa-hospital-user"></i>
+											</div>
+											<div class="fun-desc">
+												<p class="timer" data-count="+" data-to="25" data-speed="3000"></p>
+												<span class="medium">Surgery Room</span>
+											</div>
+										</div>
+										<div class="fun-fact">
+											<div class="fun-icon">
+												<i class="fa-solid fa-bed-pulse"></i>
+											</div>
+											<div class="fun-desc">
+												<p class="timer" data-count="+" data-to="2000" data-speed="3000"></p>
+												<span class="medium">Patient Capacity</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6">
+								<div class="medo-right pl-60">
+									<img src="assets/img/medo/medo-2.jpg" alt="thumb">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="medo-bottom">
+						<div class="row g-5">
+							<div class="col-xl-8">
+								<div class="medo-btm-left">
+									<img src="assets/img/medo/medo-1.jpg" alt="thumb">
+								</div>
+							</div>
+							<div class="col-xl-4">
+								<div class="medo-btm-right">
+									<div class="medo-btm-right-content pos-rel">
+										<h2 class="heading-1 wh mb-50">
+											Want To make an Appointment Easily?
+										</h2>
+										<div class="medo-link">
+											<a href="contact.html" class="service-btn btn-white btn-animated">
+												Get A Appointment
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End medo -->
+		
+		<!-- Start Quick Solution
+		============================================= -->
+		<div class="quick-area de-padding">
+			<div class="container">
+				<div class="quick-wpr pos-rel">
+					<div class="quick-shape">
+						<img src="assets/img/quick/doctor-1.png" class="quick-shape-1" alt="thumb">
+					</div>
+					<div class="quick-img pb-60 text-center">
+						<img src="assets/img/quick/quick.jpg" alt="thumb">
+					</div>
+					<div class="quick-content">
+						<h3 class="heading-3">
+							Easy System or Next Day Appointment
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem esse autem modi voluptatibus rem!
+						</p>
+						<ul class="quick-list">
+							<li><i class="icofont-brain"></i>Best Quality Appointment Services </li>
+							<li><i class="icofont-medical-sign-alt"></i>Easy Online Booking</li>
+						</ul>
+						<a href="contact.html" class="btn-submit">Make An Appointment</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Quick Solution-->
+		
+		<!-- Start Vidz
+		============================================= -->
+		<div class="vidz-area pos-rel hero-bg de-padding" style="background-image: url(assets/img/bg/bg-vidz.jpg)">
+			<div class="container">
+				<div class="vidz-wpr bg-theme">
+					<div class="vidz-single grid-4">
+						<div class="vidz-box">
+							<div class="vidz-icon">
+								<i class="fa-solid fa-user-doctor"></i>
+							</div>
+							<div class="vidz-desc">
+								<h5 class="heading-5">specialized doctor</h5>
+							</div>
+						</div>
+						<div class="vidz-box">
+							<div class="vidz-icon">
+								<i class="fa-solid fa-clipboard-user"></i>
+							</div>
+							<div class="vidz-desc">
+								<h5 class="heading-5">On Time Report</h5>
+							</div>
+						</div>
+						<div class="vidz-box">
+							<div class="vidz-icon">
+								<i class="fa-solid fa-laptop-medical"></i>
+							</div>
+							<div class="vidz-desc">
+								<h5 class="heading-5">digital Record</h5>
+							</div>
+						</div>
+						<div class="vidz-box">
+							<div class="vidz-icon">
+								<i class="fa-solid fa-receipt"></i>
+							</div>
+							<div class="vidz-desc">
+								<h5 class="heading-5">Patient Information</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vidz-section pos-rel">
+					<img src="assets/img/choose/vidz.jpg" alt="No image">
+					<div class="pl">
+						<a href="index-2.html#vidz" id="videoLink" class="play-bt">
+							<i class="fa-solid fa-play"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Modal-->
+		<!-- Vertically centered modal -->
+		<div class="mfp-hide" id="vidz">
+			<iframe width="auto" height="auto" src="https://www.youtube.com/embed/REWRZDTgmRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<!-- End Vidz -->
+		
+		<!-- Start Form
+		============================================= -->
+		<div class="form-area  de-padding bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 d-flex align-items-center">
+						<div class="form-left-content">
+							<div class="form-header">
+								<h4 class="form-title">Get an Appointment</h4>
+							</div>
+							<div class="appointment-here-form">
+								<form>
+									<div class="row g-4">
+										<div class=" col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="inputName" placeholder="Name">
+												<i class="fa fa-heart" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="form-group col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="inputPhone" placeholder="Phone">
+												<i class="fa-solid fa-mobile"></i>
+											</div>
+										</div>
+										<div class=" col-md-6">
+											<div class="form-group">
+												<input type="email" class="form-control input-style-2" id="inputEmail" placeholder="Email">
+												<i class="fa-solid fa-envelope"></i>
+											</div>
+										</div>
+										<div class=" col-md-6">
+											<div class="form-group">
+												<select id="inputState" class="form-control input-style-2" >
+													<option selected >Service Option</option>
+													<option>Service One</option>
+													<option>Service Two</option>
+												</select>
+												<i class="fa-solid fa-gear"></i>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="date" class="form-control input-style-2" id="inputDate" placeholder="Dates">
+												<i class="fa-solid fa-calendar-days"></i>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<select id="inputOpt" class="form-control input-style-2" >
+													<option selected >Persons</option>
+													<option>Service One</option>
+													<option>Service Two</option>
+												</select>
+												<i class="fa-solid fa-user-group"></i>
+											</div>
+										</div>
+										<button type="submit" class="btn-submit">Make Appointment</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6">
+						<div class="form-right pl-60">
+							<img src="assets/img/contact/contact.jpg" alt="thumb">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Form -->
+		
+		<!-- Start Team
+		============================================= -->
+		<div class="team-area pos-rel de-padding">
+			<img src="assets/img/team/team-skt.png" class="team-skt-1" alt="no image">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 offset-xl-3">
+						<div class="site-title text-center">
+							<h2>Our Specialist</h2>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, error! Quisquam voluptas molestias, praesentium voluptatum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-wpr grid-4">
+					<div class="team-box">
+						<div class="team-pic">
+							<img src="assets/img/team/1.jpg" alt="no image">
+							<ul class="team-social-icon">
+								<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+						<div class="team-desc">
+							<div class="team-title">
+								<h5 class="heading-5">Dr. Ariful Islam</h5>
+								<span>Dental Surgeon</span>
+							</div>
+							<div class="team-social">
+								<div class="team-plus">
+									<i class="fa-solid fa-plus cu"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team-box">
+						<div class="team-pic">
+							<img src="assets/img/team/2.jpg" alt="no image">
+							<ul class="team-social-icon">
+								<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+						<div class="team-desc">
+							<div class="team-title">
+								<h5 class="heading-5">Dr. Arifa Khanom</h5>
+								<span>Skin Surgeon</span>
+							</div>
+							<div class="team-social">
+								<div class="team-plus">
+									<i class="fa-solid fa-plus cu"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team-box">
+						<div class="team-pic">
+							<img src="assets/img/team/3.jpg" alt="no image">
+							<ul class="team-social-icon">
+								<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+						<div class="team-desc">
+							<div class="team-title">
+								<h5 class="heading-5">Dr. Nauman Mehtab</h5>
+								<span>Ear Doctor</span>
+							</div>
+							<div class="team-social">
+								<div class="team-plus">
+									<i class="fa-solid fa-plus cu"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team-box">
+						<div class="team-pic">
+							<img src="assets/img/team/4.jpg" alt="no image">
+							<ul class="team-social-icon">
+								<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+						<div class="team-desc">
+							<div class="team-title">
+								<h5 class="heading-5">Dr. Suboj Islam</h5>
+								<span>Heart Surgeon</span>
+							</div>
+							<div class="team-social">
+								<div class="team-plus">
+									<i class="fa-solid fa-plus cu"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Team -->
+		
+		<!-- Start Review Contact
+		============================================= -->
+		<div class="rev-contact bg-theme pos-rel de-padding">
+			<img src="assets/img/shape/shape-5.png" class="rv-1" alt="no image">
+			<img src="assets/img/shape/shape-6.png" class="rv-2" alt="no image">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 offset-xl-3">
+						<div class="site-title wh text-center">
+							<h2>Contact Us</h2>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, error! Quisquam voluptas molestias, praesentium voluptatum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="addr-box grid-3">
+					<div class="addr-box-single">
+						<div class="addr-icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="addr-desc">
+							<h5>Office Address</h5>
+							<p class="mb-0">
+								3812 Lena Lane City Jackson Mississippi
+							</p>
+						</div>
+					</div>
+					<div class="addr-box-single">
+						<div class="addr-icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="addr-desc">
+							<h5>Phone Number</h5>
+							<p class="mb-0">
+								601-594-3504
+							</p>
+						</div>
+					</div>
+					<div class="addr-box-single">
+						<div class="addr-icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="addr-desc">
+							<h5>Email</h5>
+							<p class="mb-0">
+								info@example.com
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="rev-contact-wpr">
+					<div class="row g-5">
+						<div class="col-xl-5">
+							<div class="review-content">
+								<div class="swiper rev-sldr">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="review-single pos-rel">
+												<i class="fa-solid fa-quote-right qt"></i>
+												<div class="review-txt">
+													<p>
+														<span>"</span>
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sit sed rerum numquam officia, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+													</p>
+												</div>
+												<div class="review-user">
+													<div class="review-user-pic">
+														<img src="assets/img/single/user-1.png" alt="no image">
+													</div>
+													<div class="review-user-bio">
+														<h5 class="heading-5">Marcus L. Coleman</h5>
+														<span>Film Maker</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="review-single pos-rel">
+												<i class="fa-solid fa-quote-right qt"></i>
+												<div class="review-txt">
+													<p>
+														<span>"</span>
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sit sed rerum numquam officia, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+													</p>
+												</div>
+												<div class="review-user">
+													<div class="review-user-pic">
+														<img src="assets/img/single/user-3.png" alt="no image">
+													</div>
+													<div class="review-user-bio">
+														<h5 class="heading-5">Marcus G. Colorado</h5>
+														<span>House Keeper</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-7">
+							<div class="contact-us contact-us-page text-center">
+								<form action="https://themekar.com/templatebucket/medo/assets/mail/contact.php" method="post" class="contact-form">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="name" name="name" placeholder="Your Full Name*">
+												<span class="alert alert-error"></span>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="email" class="form-control input-style-2" id="email" name="email" placeholder="Your Email Address*">
+												<span class="alert alert-error"></span>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="phone" name="phone" placeholder="Phone Number">
+												<span class="alert alert-error"></span>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="web" name="web" placeholder="Your Wesite Link">
+												<span class="alert alert-error"></span>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<input type="text" class="form-control input-style-2" id="subject" name="subject" placeholder="Subject...">
+												<span class="alert alert-error"></span>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<textarea class="form-control input-style-2" id="comment" name="comments" placeholder="Your Message..."></textarea>
+											<div class="contact-sub-btn text-center">
+												<button type="submit" name="submit" id="submit" class="btn-submit">
+													Send Message 
+													<i class="fas fa-chevron-right"></i>
+												</button>
+											</div>
+											<!-- Alert Message -->
+											<div class="alert-notification">
+												<div id="message" class="alert-msg"></div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Review Contact -->
+		
+		<!-- Start Blog
+		============================================= -->
+		<div class="blog-area de-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 offset-xl-3">
+						<div class="site-title text-center">
+							<h2>Latest News</h2>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, error! Quisquam voluptas molestias, praesentium voluptatum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="blog-wpr grid-3">
+					<div class="blog-box">
+						<div class="blog-pic">
+							<img src="assets/img/blog/1.jpg" alt="no image">
+							<div class="blog-desc">
+								<div class="blog-title">
+									<h4 class="heading-4">
+										The most popular new top business apps
+									</h4>
+								</div>
+								<div class="blog-meta">
+									<div class="blog-user">
+										<ul>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-user"></i>
+													Admin
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-message"></i>
+													52 Comments
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-heart"></i>
+													47 Likes
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="blog-read">
+										<a href="https://themekar.com/templatebucket/medo/blog-single.html" class="med-more">
+											<i class="fa-solid fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-box">
+						<div class="blog-pic">
+							<img src="assets/img/blog/2.jpg" alt="no image">
+							<div class="blog-desc">
+								<div class="blog-title">
+									<h4 class="heading-4">
+										The most popular new top business apps
+									</h4>
+								</div>
+								<div class="blog-meta">
+									<div class="blog-user">
+										<ul>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-user"></i>
+													Admin
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-message"></i>
+													52 Comments
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-heart"></i>
+													47 Likes
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="blog-read">
+										<a href="https://themekar.com/templatebucket/medo/blog-single.html" class="med-more">
+											<i class="fa-solid fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog-box">
+						<div class="blog-pic">
+							<img src="assets/img/blog/3.jpg" alt="no image">
+							<div class="blog-desc">
+								<div class="blog-title">
+									<h4 class="heading-4">
+										The most popular new top business apps
+									</h4>
+								</div>
+								<div class="blog-meta">
+									<div class="blog-user">
+										<ul>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-user"></i>
+													Admin
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-message"></i>
+													52 Comments
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html#">
+													<i class="fa-solid fa-heart"></i>
+													47 Likes
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="blog-read">
+										<a href="https://themekar.com/templatebucket/medo/blog-single.html" class="med-more">
+											<i class="fa-solid fa-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Blog -->
+		
+	</main>	
+    
 @endsection
