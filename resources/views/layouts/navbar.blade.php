@@ -28,26 +28,27 @@
 			</div>
 		</div>
 	</div>
-	<!-- End Top-Bar -->
-	
-	<!-- Start header
-    ============================================= -->
-    <header class="header">
+
+	<header class="header">
 		<div class="main-navigation">
 			<div class="main-wrapper">
 				<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide bsnav-transparent">
 					<div class="container">
 						<a class="navbar-brand" href="index.html">
-							<img src="{{ asset('assets/img/logo/logo-white.png') }}" class="logo-display" alt="thumb">
-							<img src="{{ asset('assets/img/logo/logo.png') }}" class="logo-scrolled" alt="thumb">
+							<img src="assets/img/logo/logo-white.png" class="logo-display" alt="thumb">
+							<img src="assets/img/logo/logo.png" class="logo-scrolled" alt="thumb">
 						</a>
 						<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
 						<div class="collapse navbar-collapse justify-content-md-end">
 							<ul class="navbar-nav navbar-mobile mr-0">
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="{{ route('home') }}">Inicio<i class="caret"></i></a>
+									<a class="nav-link" href="index-2.html#">Home <i class="caret"></i></a>
+									<ul class="navbar-nav">
+										<li class="nav-item"><a class="nav-link" href="index.html">Home Version 1</a></li>
+										<li class="nav-item"><a class="nav-link" href="index-2.html">Home Version 2</a></li>
+									</ul>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="{{ route('nosotros') }}">Nosotros</a></li>
+								<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 								<li class="nav-item dropdown">
 									<a class="nav-link" href="index-2.html#">Pages <i class="caret"></i></a>
 									<ul class="navbar-nav">
@@ -58,14 +59,14 @@
 									</ul>
 								</li>
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="{{ route('servicios') }}">Servicios<i class="caret"></i></a>
+									<a class="nav-link" href="index-2.html#">Blog <i class="caret"></i></a>
 									<ul class="navbar-nav">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="blog-grid.html">Blog Grid</a></li>
 										<li class="nav-item"><a class="nav-link" href="single.html">Blog Single</a></li>
 									</ul>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="{{ route('contacto') }}">Contacto</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 						<div class="search-cart nav-profile">
@@ -80,10 +81,5 @@
 			</div>
 		</div>
     </header>
-
-
-
-
-
-
+    <!-- End header -->
     

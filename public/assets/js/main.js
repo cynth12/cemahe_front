@@ -17,7 +17,7 @@
 		$(window).on('load', function() {
 			// Animate loader off screen
 			$(".preloader").fadeOut("slow");
-		});
+		}); 
 		
 		/* ==================================================
 			# Scroll to top
@@ -304,14 +304,4 @@
 		
     }); // end document ready function
 })(jQuery); // End jQuery
-
-
-window.onscroll = function() {
-  scrollFunction();
-};
-
-
-
-
-
 

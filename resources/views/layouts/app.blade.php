@@ -45,9 +45,6 @@
 
     @include('layouts.commonJS')
 
-
-    
-
 </body>
 
 
