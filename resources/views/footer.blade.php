@@ -3,12 +3,9 @@
 			<div class="footer-widget">
 				<div class="footer-widget-wrapper de-padding">
 					<div class="footer-widget-box ab-us">
-						<h4 class="foo-widget-title">About Us</h4>
+						<h4 class="foo-widget-title">Cobertura</h4>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim alias, quod officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						</p>
-						<p>
-							189, Kyes road, F1 456 Caron Town. Office No 3456
+						Atendemos en Pachuca, Zempoala, Tizayuca y sus alrededores.
 						</p>
 						
 						<ul class="footer-social">
@@ -19,46 +16,34 @@
 						</ul>
 					</div>
 					<div class="footer-widget-box footer-sub">
-						<h4 class="foo-widget-title">Our Departments.</h4>
+						<h4 class="foo-widget-title">Servicios</h4>
 						<ul class="foo-list">
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Medoz &amp; intensive care</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Home Care</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Caregivers</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Diagnosis &amp; Investigation</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Medical &amp; Surgical</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Mental Health</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Pie Diabetico</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Ulceras por presion</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Estomas</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Varices</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Heridas infectadas</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Quemaduras</a></li>
 						</ul>											
 					</div>
 					<div class="footer-widget-box footer-cat">
-						<h4 class="foo-widget-title">Helpful Links.</h4>
-						<ul class="foo-list">
-							<li><i class="fas fa-arrow-circle-right"></i><a href="about.html">Who We Are</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Our Team Mission</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="blog.html">History</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Awards since </a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Experience Perpose</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="single.html">Success Story</a></li>
-						</ul>
+						
 					</div>
 					<div class="footer-widget-box footer-link">
-						<h4 class="foo-widget-title">Opening Hours</h4>
+						<h4 class="foo-widget-title">Horario de atención</h4>
 						<ul class="ads">
-							<li><span>Monday - Tuesday</span><span>9.00 - 17.00</span></li>
-							<li><span>Saturday</span><span>9.00 - 16.00</span></li>
-							<li><span>Monday - Tuesday</span><span>9.00 - 17.00</span></li>
-							<li><span>Sunday</span><span> Closed</span></li>
+							<ul class="ads">
+							<li><span>Lunes a Viernes</span><span>9.00 - 20.00</span></li>
+							<li><span>Sabados - Domingo</span><span>10.00 - 18.00</span></li>
+							<li><span>Lunes a Viernes</span>Consulta clinica</span></li>
+							<li><span>Sabado - Domingo</span><span> Consulta a domicilio</span></li>
 						</ul>
-						<div class="subscribe">
-							<form>
-								<input type="text" placeholder="Type Your Email">
-								<button type="submit"><i class="fas fa-location-arrow"></i></button>
-							</form>
-						</div>
+						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="copyright text-center py-4">
-				<p class="mb-0">All Right Reserved By Templatebucket </p>
+				<p class="mb-0">Derechos reservados </p>
 			</div>
 		</div>
 	</footer>

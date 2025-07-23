@@ -4,27 +4,22 @@
 				<div class="col-xl-4 col-lg-3">
 					<div class="top-phone top-box">
 						<i class="fa-solid fa-phone"></i>
-						<span>+8801688005654</span>
+						<span>771 129 5900</span>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-3">
 					<div class="top-email top-box">
 						<i class="fa-solid fa-envelope"></i>
-						<span>info@medical.com</span>
+						<span>heridas_cemahe@gmail.com</span>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4">
 					<div class="top-box top-location">
 						<i class="fa-solid fa-location-dot"></i>
-						<span>123 street melbourne new york </span>
+						<span>Pachuca Hidalgo</span>
 					</div>
 				</div>
-				<div class="col-xl-2 col-lg-2">
-					<div class="top-box top-login">
-						<i class="fa-solid fa-right-to-bracket"></i>
-						<span>Login</span>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -42,35 +37,17 @@
 						<div class="collapse navbar-collapse justify-content-md-end">
 							<ul class="navbar-nav navbar-mobile mr-0">
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="index-2.html#">Home <i class="caret"></i></a>
-									<ul class="navbar-nav">
-										<li class="nav-item"><a class="nav-link" href="index.html">Home Version 1</a></li>
-										<li class="nav-item"><a class="nav-link" href="index-2.html">Home Version 2</a></li>
-									</ul>
+									<a class="nav-link" href="{{ url('inicio')}}">Inicio<i class="caret"></i></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{ url('nosotros')}}">Nosotros</a></li>
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="index-2.html#">Pages <i class="caret"></i></a>
-									<ul class="navbar-nav">
-										<li class="nav-item"><a class="nav-link" href="doctor.html">Doctors</a></li>
-										<li class="nav-item"><a class="nav-link" href="department.html">Departments</a></li>
-										<li class="nav-item"><a class="nav-link" href="faq.html">Faq</a></li>
-										<li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-									</ul>
+									<a class="nav-link" href="{{ url('servicios')}}">Servicios<i class="caret"></i></a>
 								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="index-2.html#">Blog <i class="caret"></i></a>
-									<ul class="navbar-nav">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="blog-grid.html">Blog Grid</a></li>
-										<li class="nav-item"><a class="nav-link" href="single.html">Blog Single</a></li>
-									</ul>
-								</li>
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{ url('contacto')}}">Contacto</a></li>
 							</ul>
 						</div>
 						<div class="search-cart nav-profile">
-							<a href="contact.html" class="btn-4">Let's Begin</a>
+							<a href="{{ url('contacto')}}" class="btn-4">Citas</a>
 						</div>
 					</div>
 				</div>
