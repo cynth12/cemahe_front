@@ -1,6 +1,6 @@
 <!-- jQuery debe estar primero -->
-<script src="{{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset('assets/js/popper.min.js') }}"></script>
 <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 
 <!-- ScrollToFixed (inmediatamente después de jQuery) -->
@@ -20,12 +20,6 @@
 <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
 <script src="{{ asset('assets/js/active-class.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
-
-<!-- Venobox (debe ir después de jQuery también) -->
-<script src="{{ asset('assets/js/venobox.min.js') }}"></script>
-
-<!-- Tu JS personalizado -->
-<script src="{{ asset('assets/js/theme.js') }}"></script>
 
 
 

@@ -305,3 +305,13 @@
     }); // end document ready function
 })(jQuery); // End jQuery
 
+
+window.onscroll = function() {
+  scrollFunction();
+};
+
+
+
+
+
+
