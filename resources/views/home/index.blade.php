@@ -96,7 +96,7 @@
                             <div class="about-right pl-30">
                                 <span class="hero-sub-title">Nuestro equipo</span>
                                 <h2 class="hero-title">
-                                   Lic. Esp. Reyna Juliana Zarate Lagos
+                                   Lic. Esp. Reyna Juleana Zárate Vargas
                                 </h2>
                                 <p class="about-para">
                                     Contamos con un equipo multidisciplinario altamente capacitado, con amplia experiencia en el tratamiento de heridas complejas y estomas. Nuestro compromiso es ofrecer atención profesional, 
