@@ -10,7 +10,7 @@
 				<div class="col-xl-3 col-lg-3">
 					<div class="top-email top-box">
 						<i class="fa-solid fa-envelope"></i>
-						<span>heridas_cemahe@gmail.com</span>
+						<span>heridascemahe@gmail.com</span>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4">
@@ -30,8 +30,8 @@
 				<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide bsnav-transparent">
 					<div class="container">
 						<a class="navbar-brand" href="index.html">
-							<img src="assets/img/logo/logo_CEMAHE_1.png" class="logo-display" alt="thumb">
-							<img src="assets/img/logo/logo_CEMAHE_2.png" class="logo-scrolled" alt="thumb">
+							<img src="{{ asset('assets/img/logo/logo_CEMAHE_1.png') }}" class="logo-display" alt="thumb">
+							<img src="{{ asset('assets/img/logo/logo_CEMAHE_2.png ') }}" class="logo-scrolled" alt="thumb">
 						</a>
 						<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
 						<div class="collapse navbar-collapse justify-content-md-end">
