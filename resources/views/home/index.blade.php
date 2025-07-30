@@ -16,7 +16,7 @@
             <div class="swiper hero-sldr">
                 <div class="swiper-wrapper">
                     <div class="hero-single swiper-slide bg-overlay hero-bg"
-                        style="background-image: url(assets/img/header/hdr-1.jpg)">
+                        style="background-image: url(assets/img/heridas/heridas_pachuca_2.png)">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-6">
@@ -81,17 +81,19 @@
                 <div class="about-wpr">
                     <div class="row g-5">
                         <div class="col-xl-7">
-                            <div class="about-left">
-                                <div class="about-pics pos-rel">
-                                    <div class="about-pic grid-2">
-                                        <img src="assets/img/about/about-1.jpg" class="about-pic-1" alt="Image Not Found">
-                                        <img src="assets/img/about/about-2.jpg" class="about-pic-2" alt="Image Not Found">
-                                    </div>
-                                    <img src="assets/img/about/about-3.jpg" class="about-pic-3" alt="Image Not Found">
-                                    <img src="assets/img/shape/shape-1.png" class="about-pic-4" alt="Image Not Found">
-                                </div>
-                            </div>
-                        </div>
+							<div class="about-left">
+								<div class="about-pics pos-rel">
+									<div class="about-pic grid-2">
+										<img src="assets/img/heridas/JULEANA.png" class="about-pic-2" alt="Image Not Found">
+                                      
+                                         <img src="assets/img/heridas/curacion.jpg" class="about-pic-2" alt="Image Not Found">
+										
+									</div>
+									<img src="assets/img/heridas/pie_diabetico.jpg" class="about-pic-3" alt="Image Not Found">
+									
+								</div>
+							</div>
+						</div>
                         <div class="col-xl-5">
                             <div class="about-right pl-30">
                                 <span class="hero-sub-title">Nuestro equipo</span>
@@ -131,7 +133,7 @@
         <!-- Start Service
       ============================================= -->
         <div class="service-area de-padding bg-overlay  hero-bg"
-            style="background-image: url(assets/img/service/service.jpg)">
+            style="background-image: url(assets/img/heridas/procedimiento.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 offset-xl-3">
@@ -248,7 +250,7 @@
                     <div class="why-left">
                         <div class="why-left-content">
                             <div class="why-left-pic pos-rel text-center">
-                                <img src="assets/img/choose/choose.png" alt="thumb">
+                                <img src="assets/img/heridas/heridologa.png" alt="thumb">
                                 <img src="assets/img/shape/shape-3.png" class="why-shape-1" alt="thumb">
                                 <img src="assets/img/shape/shape-2.png" class="why-shape-2" alt="thumb">
                                 <img src="assets/img/dot/17.png" class="why-shape-3" alt="thumb">
@@ -327,7 +329,7 @@
                             </div>
                             <div class="col-xl-6">
                                 <div class="medo-right pl-60">
-                                    <img src="assets/img/medo/medo-2.jpg" alt="thumb">
+                                    <img src="assets/img/heridas/presion.png" alt="thumb">
                                 </div>
                             </div>
                         </div>
@@ -336,7 +338,7 @@
                         <div class="row g-5">
                             <div class="col-xl-8">
                                 <div class="medo-btm-left">
-                                    <img src="assets/img/medo/medo-1.jpg" alt="thumb">
+                                    <img src="assets/img/heridas/sanacion.png" alt="thumb">
                                 </div>
                             </div>
                             <div class="col-xl-4">
@@ -399,7 +401,7 @@
                     </div>
                 </div>
                 <div class="vidz-section pos-rel">
-                    <img src="assets/img/choose/vidz.jpg" alt="No image">
+                    <img src="assets/img/heridas/pie.jpg" alt="No image">
                     <div class="pl">
                         <a href="index-2.html#vidz" id="videoLink" class="play-bt">
                             <i class="fa-solid fa-play"></i>
