@@ -149,15 +149,16 @@
                 <div class="service-wpr grid-3">
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-shoe-prints"></i>
+                            <i>🦶</i>
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
-                                Pie Diabetico
+                                Pie Diabetico 
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
+                                Complicación frecuente de la diabetes que afecta la piel, nervios y circulación de los pies. 
+                                Puede causar úlceras, infecciones y, en casos graves, amputaciones. El tratamiento oportuno 
+                                ayuda a controlar la infección, mejorar la circulación y favorecer la cicatrización.
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer
                                 Mas</a>
@@ -172,8 +173,25 @@
                                 Estomas
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
+                                Aperturas quirúrgicas en el abdomen que permiten la salida de desechos corporales cuando 
+                                el funcionamiento normal del intestino o la vejiga está afectado. Brindamos cuidado especializado 
+                                para prevenir infecciones, proteger la piel circundante y enseñar el manejo adecuado al paciente.
+                            </p>
+                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fa-sharp fa-solid fa-hand-holding-medical"></i>
+                        </div>
+                        <div class="service-desc">
+                            <h4 class="heading-4"> 
+                                Heridas Infectadas
+                            </h4>
+                            <p>
+                                Lesiones que han sido invadidas por bacterias, causando enrojecimiento, dolor, 
+                                secreción y retraso en la cicatrización. El manejo incluye limpieza profunda, 
+                                control de la infección y aplicación de técnicas avanzadas de curación.
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
@@ -184,26 +202,14 @@
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
-                                Heridas Infectadas
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
-                            </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
-                        </div>
-                    </div>
-                    <div class="service-box">
-                        <div class="service-icon">
-                            <i class="fa-sharp fa-solid fa-hand-holding-medical"></i>
-                        </div>
-                        <div class="service-desc">
-                            <h4 class="heading-4">
                                 Ulceras por presion
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
+                               Lesiones en la piel y tejidos subyacentes causadas por presión 
+                               prolongada, común en personas con movilidad reducida. 
+                               El tratamiento consiste en aliviar la presión, promover la circulación y aplicar terapias de regeneración tisular.
+
+
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
@@ -217,8 +223,9 @@
                                 Quemaduras
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
+                                Lesiones de la piel causadas por calor, sustancias químicas, electricidad o radiación. 
+                                El tratamiento busca controlar el dolor, prevenir infecciones 
+                                y acelerar la regeneración de la piel con técnicas y apósitos especializados.
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
@@ -232,8 +239,9 @@
                                 Varices
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, odio quibusdam! Pariatur
-                                dicta quisquam, repellat
+                               Venas dilatadas y tortuosas que aparecen por debilidad en las paredes venosas y problemas 
+                               de circulación. Pueden causar dolor, pesadez e inflamación. 
+                               Ofrecemos terapias para mejorar el flujo sanguíneo y prevenir complicaciones.
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
