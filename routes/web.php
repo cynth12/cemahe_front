@@ -18,5 +18,10 @@ Route::get('/contacto', function () {
     return view('contacto.index');
 })->name('contacto');
 
+Route::get('/citas', function () {
+    return view('citas.index');
+})->name('citas');
+
+
 
 

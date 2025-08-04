@@ -29,7 +29,7 @@
 			<div class="main-wrapper">
 				<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide bsnav-transparent">
 					<div class="container">
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="home">
 							<img src="{{ asset('assets/img/logo/logo_CEMAHE_1.png') }}" class="logo-display" alt="thumb">
 							<img src="{{ asset('assets/img/logo/Logo_CEMAHE_2.png ') }}" class="logo-scrolled" alt="thumb">
 						</a>
@@ -37,17 +37,17 @@
 						<div class="collapse navbar-collapse justify-content-md-end">
 							<ul class="navbar-nav navbar-mobile mr-0">
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="{{ url('inicio')}}">Inicio<i class="caret"></i></a>
+									<a class="nav-link" href="{{ url('/')}}">Inicio<i class="caret"></i></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="{{ url('nosotros')}}">Nosotros</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{ url('#nosotros')}}">Nosotros</a></li>
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="{{ url('servicios')}}">Servicios<i class="caret"></i></a>
+									<a class="nav-link" href="{{ url('#servicios')}}">Servicios<i class="caret"></i></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="{{ url('contacto')}}">Contacto</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{ url('#contacto')}}">Contacto</a></li>
 							</ul>
 						</div>
 						<div class="search-cart nav-profile">
-							<a href="{{ url('contacto')}}" class="btn-4">Citas</a>
+							<a href="{{ url('#citas')}}" class="btn-4">Citas</a>
 						</div>
 					</div>
 				</div>

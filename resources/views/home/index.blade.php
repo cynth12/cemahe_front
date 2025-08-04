@@ -76,7 +76,7 @@
 
         <!-- Start About
       ============================================= -->
-        <div class="about-area de-padding bg">
+        <div id="nosotros" class="about-area de-padding bg">
             <div class="container">
                 <div class="about-wpr">
                     <div class="row g-5">
@@ -132,7 +132,7 @@
         <!-- End About -->
         <!-- Start Service
       ============================================= -->
-        <div class="service-area de-padding bg-overlay  hero-bg"
+        <div id="servicios" class="service-area de-padding bg-overlay  hero-bg"
             style="background-image: url(assets/img/heridas/procedimiento.jpg)">
             <div class="container">
                 <div class="row">
@@ -252,7 +252,7 @@
         <!-- End Service -->
         <!-- Start Why Choose Us
       ============================================= -->
-        <div class="why-area de-padding">
+        <div id="nosotros" class="why-area de-padding">
             <div class="container">
                 <div class="why-wpr grid-2">
                     <div class="why-left">
@@ -446,7 +446,7 @@
 		<!-- End Blog -->
 	<!-- Start Review Contact
 		============================================= -->
-		<div class="rev-contact bg-theme pos-rel de-padding">
+		<div id="contacto" class="rev-contact bg-theme pos-rel de-padding">
 			<img src="assets/img/shape/shape-5.png" class="rv-1" alt="no image">
 			<img src="assets/img/shape/shape-6.png" class="rv-2" alt="no image">
 			<div class="container">
