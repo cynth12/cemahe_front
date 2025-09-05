@@ -9,10 +9,9 @@
 						</p>
 						
 						<ul class="footer-social">
-							<li><a href="index-2.html#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="index-2.html#"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="index-2.html#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="index-2.html#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="https://www.facebook.com/share/1JPQVXFTKc/"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.instagram.com/cemahepachuca?igsh=MWQ3anhoNzdnMHNiZw=="><i class="fab fa-instagram"></i></a></li>
+							<li><a href="/"><i class="fab fa-youtube"></i></a></li>
 						</ul>
 					</div>
 					<div class="footer-widget-box footer-sub">
@@ -33,10 +32,10 @@
 						<h4 class="foo-widget-title">Horario de atención</h4>
 						<ul class="ads">
 							<ul class="ads">
-							<li><span>Lunes a Viernes</span><span>9.00 - 20.00</span></li>
-							<li><span>Sabados - Domingo</span><span>10.00 - 18.00</span></li>
-							<li><span>Lunes a Viernes</span>Consulta clinica</span></li>
-							<li><span>Sabado - Domingo</span><span> Consulta a domicilio</span></li>
+							<li><span>Lunes a Viernes</span><span>10:00 - 18:00</span></li>
+							<li><span>Sabado</span><span>10:00 - 15:00</span></li>
+							<li><span>Domingo</span><span>Urgencias</span></li>
+							<li><span>Lunes a Sabado</span>Previa cita</span></li>
 						</ul>
 						</ul>
 					</div>
