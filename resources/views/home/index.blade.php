@@ -25,9 +25,9 @@
                                             Centro Especializado en el Manejo Avanzado de Heridas y Estomas
                                         </h2>
                                         <p>
-                                            En CEMAHE, somos un equipo de especialistas dedicados al manejo integral de
-                                            heridas crónicas,
-                                            estomas, pie diabético y lesiones complejas.
+                                            En CEMAHE, Somos un equipo de especialistas enfocados en el manejo de pacientes 
+                                            portadores de enfermedades Crónico Degenerativas, 
+                                            dedicados al manejo integral de heridas de difícil cicatrización.
                                         </p>
 										<h2 class="hero-title">
                                           Contamos con servicio a Domicilio
@@ -49,14 +49,16 @@
                                 <div class="col-xl-6 offset-xl-3">
                                     <div class="hero-content text-center">
                                         <h2 class="hero-title">
-                                            Ofrecemos tratamientos personalizados con técnicas avanzadas y productos de
-                                            última generación
+                                            Nuestros Servicios
+
+                                        <li>Consulta medica preventiva</li>
+                                         <li>Atención a domicilio</li>
+                                          <li>Consulta a pacientes con heridas y ostomias</li>
+                                          <li>Distribuidor de apositos</li>
+                                          <li>Aplicación de terapia de presion negativa</li>
+                                          <li>Material de curación ostomias</li>
                                         </h2>
-                                        <p class="p-0">
-                                            Nos enfocamos en brindar atención de alta calidad, profesional y humana,
-                                            con el respaldo de experiencia clínica, preparación académica y vocación de
-                                            servicio.
-                                        </p>
+                                        <br>
                                         <div class="hero-btn">
                                             <a href="contact.html" class="service-btn btn-white btn-animated">
                                                 Contactanos

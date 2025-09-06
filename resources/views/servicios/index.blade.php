@@ -125,8 +125,8 @@
                                 Post cicatrización.
                             </h4>
                             <p>
-                               Aplicamos terapias especializadas para fortalecer la piel, 
-                               mejorar la circulación y prevenir recaídas o nuevas lesiones después del cierre de una herida.
+                               Contamos con profesionales calificados (ortesistas y protesicos) para corregir y/o reemplazar funciones corporales, 
+                               con la finalidad de evitar recidivas, incorporando al paciente a su vida cotidiana.
                             </p>
                             <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
