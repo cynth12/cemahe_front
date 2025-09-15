@@ -137,5 +137,3 @@
         <!-- End Service -->
         <!-- Start Why Choose Us
       ============================================= -->
-
-      Terapia preventiva post cicatrización.
