@@ -19,7 +19,7 @@
                 <div class="service-wpr grid-3">
                     <div class="service-box">
                         <div class="service-icon">
-                            <i>🦶</i>
+                             <img src="assets/img/heridas/pie_diabetico_curacion.png" alt="Pie Diabético" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -30,13 +30,11 @@
                                 Puede causar úlceras, infecciones y, en casos graves, amputaciones. El tratamiento oportuno 
                                 ayuda a controlar la infección, mejorar la circulación y favorecer la cicatrización.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer
-                                Mas</a>
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-user-nurse"></i>
+                            <img src="assets/img/heridas/estomas.png" alt="Estomas" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -47,12 +45,12 @@
                                 el funcionamiento normal del intestino o la vejiga está afectado. Brindamos cuidado especializado 
                                 para prevenir infecciones, proteger la piel circundante y enseñar el manejo adecuado al paciente.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
+                           
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-sharp fa-solid fa-hand-holding-medical"></i>
+                            <img src="assets/img/heridas/herida_infectada.png" alt="Herida infectada" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4"> 
@@ -63,12 +61,12 @@
                                 secreción y retraso en la cicatrización. El manejo incluye limpieza profunda, 
                                 control de la infección y aplicación de técnicas avanzadas de curación.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
+                            
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-bed"></i>
+                           <img src="assets/img/heridas/ulcera_presion.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -81,12 +79,12 @@
 
 
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
+                            
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-hand"></i>
+                            <img src="assets/img/heridas/quemaduras.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -97,12 +95,12 @@
                                 El tratamiento busca controlar el dolor, prevenir infecciones 
                                 y acelerar la regeneración de la piel con técnicas y apósitos especializados.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
+                          
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-bed-pulse"></i>
+                            <img src="assets/img/heridas/varices.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -113,12 +111,11 @@
                                de circulación. Pueden causar dolor, pesadez e inflamación. 
                                Ofrecemos terapias para mejorar el flujo sanguíneo y prevenir complicaciones.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
                     </div>
                     <div class="service-box">
                         <div class="service-icon">
-                            <i class="fa-solid fa-bed-pulse"></i>
+                            <img src="assets/img/heridas/post_quirurgico.png" alt="post-quirurgico" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
@@ -128,7 +125,6 @@
                                Contamos con profesionales calificados (ortesistas y protesicos) para corregir y/o reemplazar funciones corporales, 
                                con la finalidad de evitar recidivas, incorporando al paciente a su vida cotidiana.
                             </p>
-                            <a href="{{ url('inicio')}}" class="btn-2">Leer mas</a>
                         </div>
                     </div>
                 </div>
