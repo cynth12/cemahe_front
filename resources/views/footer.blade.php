@@ -17,12 +17,13 @@
 					<div class="footer-widget-box footer-sub">
 						<h4 class="foo-widget-title">Servicios</h4>
 						<ul class="foo-list">
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Pie Diabetico</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Ulceras por presion</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Estomas</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Varices</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Heridas infectadas</a></li>
-							<li><i class="fas fa-arrow-circle-right"></i><a href="service-single.html">Quemaduras</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#pie-diabetico">Pie Diabetico</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#ulcera">Ulceras por presion</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#estoma">Estomas</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#varice">Varices</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#herida">Heridas infectadas</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#quemadura">Quemaduras</a></li>
+							<li><i class="fas fa-arrow-circle-right"></i><a href="#post-cicatrizacion">Post cicatrización</a></li>
 						</ul>											
 					</div>
 					<div class="footer-widget-box footer-cat">

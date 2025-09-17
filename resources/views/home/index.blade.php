@@ -33,7 +33,7 @@
                                           Contamos con servicio a Domicilio
                                         </h2>
                                         <div class="hero-btn">
-                                            <a href="{{ url('contact.html') }}" class="service-btn btn-white btn-animated">
+                                            <a href="{{ url('#contacto')}}" class="service-btn btn-white btn-animated">
                                                 Contactanos
                                             </a>
                                         </div>
@@ -60,7 +60,7 @@
                                         </h2>
                                         <br>
                                         <div class="hero-btn">
-                                            <a href="contact.html" class="service-btn btn-white btn-animated">
+                                            <a href="{{ url('#contacto')}}" class="service-btn btn-white btn-animated">
                                                 Contactanos
                                             </a>
                                         </div>

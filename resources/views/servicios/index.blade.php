@@ -18,10 +18,10 @@
                 </div>
                 <div class="service-wpr grid-3">
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div  id="pie-diabetico" class="service-icon">
                              <img src="assets/img/heridas/pie_diabetico_curacion.png" alt="Pie Diabético" class="img-servicio">
                         </div>
-                        <div class="service-desc">
+                        <div  class="service-desc">
                             <h4 class="heading-4">
                                 Pie Diabetico 
                             </h4>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div id="estoma" class="service-icon">
                             <img src="assets/img/heridas/estomas.png" alt="Estomas" class="img-servicio">
                         </div>
                         <div class="service-desc">
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div id="herida" class="service-icon">
                             <img src="assets/img/heridas/herida_infectada.png" alt="Herida infectada" class="img-servicio">
                         </div>
                         <div class="service-desc">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div id="ulcera" class="service-icon">
                            <img src="assets/img/heridas/ulcera_presion.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div id="quemadura" class="service-icon">
                             <img src="assets/img/heridas/quemaduras.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <div class="service-icon">
+                        <div id="varice" class="service-icon">
                             <img src="assets/img/heridas/varices.png" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
@@ -113,8 +113,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="service-box">
-                        <div class="service-icon">
+                    <div  class="service-box">
+                        <div id="post-cicatrizacion" class="service-icon">
                             <img src="assets/img/heridas/post_quirurgico.png" alt="post-quirurgico" class="img-servicio">
                         </div>
                         <div class="service-desc">

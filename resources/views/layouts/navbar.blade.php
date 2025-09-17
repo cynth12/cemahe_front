@@ -47,7 +47,7 @@
 							</ul>
 						</div>
 						<div class="search-cart nav-profile">
-							<a href="{{ url('#citas')}}" class="btn-4">Citas</a>
+							<a href="{{ url('#contacto')}}" class="btn-4">Citas</a>
 						</div>
 					</div>
 				</div>

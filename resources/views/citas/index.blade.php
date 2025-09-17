@@ -25,7 +25,7 @@
                                 <li><i class="fa-solid fa-house-medical"></i>Horarios Flexibles y Servicio a Domicilio</li>
                                 <li><i class="fa-sharp fa-solid fa-laptop-medical"></i>Atención por Profesionales Certificados</li>
                             </ul>
-                            <button type="submit" class="btn-submit">Agenda tu cita</button>
+                            <a type="submit" class="btn-submit" href="{{ url('#contacto')}}">Agenda tu cita</a >
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                             ¿Necesitas una cita médica rápida y sencilla?
                                         </h2>
                                         <div class="medo-link">
-                                            <a href="{{ url('contacto')}}" class="service-btn btn-white btn-animated">
+                                            <a href="{{ url('#contacto')}}" class="service-btn btn-white btn-animated">
                                                 Agenda tu cita
                                             </a>
                                         </div>
