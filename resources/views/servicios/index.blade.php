@@ -19,7 +19,7 @@
                 <div class="service-wpr grid-3">
                     <div class="service-box">
                         <div  id="pie-diabetico" class="service-icon">
-                             <img src="assets/img/heridas/pie_diabetico_curacion.png" alt="Pie Diabético" class="img-servicio">
+                             <img src="assets/img/heridas/diabetico.jpg" alt="Pie Diabético" class="img-servicio">
                         </div>
                         <div  class="service-desc">
                             <h4 class="heading-4">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="service-box">
                         <div id="varice" class="service-icon">
-                            <img src="assets/img/heridas/varices.png" alt="Ulcera por presion" class="img-servicio">
+                            <img src="assets/img/heridas/varices.jpg" alt="Ulcera por presion" class="img-servicio">
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
