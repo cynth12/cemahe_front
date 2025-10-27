@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div  class="service-box">
-                        <div id="cicatrizacion" class="service-icon">
+                        <div id="post-cicatrizacion" class="service-icon">
                             <img src="assets/img/heridas/cicatrizar.png" alt="cicatrizacion" class="img-servicio">
                         </div>
                         <div class="service-desc">
