@@ -58,8 +58,7 @@
                                                 <i class="fa-solid fa-truck-medical"></i>
                                             </div>
                                             <div class="fun-desc">
-                                                <p class="timer" data-count="+" data-to="15" data-speed="3000"></p>
-                                                <span class="medium">Años de experiencia</span>
+                                                
                                             </div>
                                         </div>
                                         <div class="fun-fact">
@@ -67,8 +66,8 @@
                                                 <i class="fa-solid fa-hospital-user"></i>
                                             </div>
                                             <div class="fun-desc">
-                                                <p class="timer" data-count="+" data-to="2000" data-speed="3000"></p>
-                                                <span class="medium">Pacientes con éxito</span>
+                                                <p class="timer" data-count="+" data-to="15" data-speed="3000"></p>
+                                                <span class="medium">Años de experiencia</span>
                                             </div>
                                         </div>
                                         <div class="fun-fact">
@@ -76,8 +75,7 @@
                                                 <i class="fa-solid fa-bed-pulse"></i>
                                             </div>
                                             <div class="fun-desc">
-                                                <p class="timer" data-count="+" data-to="2000" data-speed="3000"></p>
-                                                <span class="medium">Cicatrizadas sin complicaciones</span>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -94,7 +92,7 @@
                         <div class="row g-5">
                             <div class="col-xl-8">
                                 <div class="medo-btm-left">
-                                    <img src="assets/img/heridas/sanacion.png" alt="thumb">
+                                    <img src="assets/img/heridas/sana.png" alt="thumb">
                                 </div>
                             </div>
                             <div class="col-xl-4">

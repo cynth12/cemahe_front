@@ -19,7 +19,7 @@
                 <div class="service-wpr grid-3">
                     <div class="service-box">
                         <div  id="pie-diabetico" class="service-icon">
-                             <img src="assets/img/heridas/diabetico.jpg" alt="Pie Diabético" class="img-servicio">
+                             <img src="assets/img/heridas/diabetico.png" alt="Pie Diabético" class="img-servicio">
                         </div>
                         <div  class="service-desc">
                             <h4 class="heading-4">
@@ -104,7 +104,7 @@
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
-                                Varices
+                                Ulceras venosas y arteriales
                             </h4>
                             <p>
                                Venas dilatadas y tortuosas que aparecen por debilidad en las paredes venosas y problemas 
@@ -119,11 +119,26 @@
                         </div>
                         <div class="service-desc">
                             <h4 class="heading-4">
-                                Post cicatrización.
+                                Heridas dehiscentes.
                             </h4>
                             <p>
                                Contamos con profesionales calificados (ortesistas y protesicos) para corregir y/o reemplazar funciones corporales, 
                                con la finalidad de evitar recidivas, incorporando al paciente a su vida cotidiana.
+                            </p>
+                        </div>
+                    </div>
+                    <div  class="service-box">
+                        <div id="post-cicatrizacion" class="service-icon">
+                            <img src="assets/img/heridas/varices.png" alt="post-quirurgico" class="img-servicio">
+                        </div>
+                        <div class="service-desc">
+                            <h4 class="heading-4">
+                                Heridas de dificil cicatrización.
+                            </h4>
+                            <p>
+                               Lesiones que no muestran progreso en su cierre natural debido a factores como infección, presión constante, enfermedades crónicas o deficiencias circulatorias. 
+                                Estas heridas requieren tratamientos especializados que estimulen la regeneración, controlen el entorno local y prevengan complicaciones. 
+                                Contamos con soluciones avanzadas para acelerar la cicatrización y mejorar el bienestar del paciente.
                             </p>
                         </div>
                     </div>
